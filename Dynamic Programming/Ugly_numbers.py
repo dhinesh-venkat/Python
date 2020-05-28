@@ -16,7 +16,7 @@ def get_ugly(n):
 		if dp[i] == next_5:
 			triangle += 1
 			next_5 = dp[triangle] * 5
-		print(circle,square,triangle)
+		#print(circle,square,triangle)
 	return dp[-1]
 
 if __name__ == '__main__':
